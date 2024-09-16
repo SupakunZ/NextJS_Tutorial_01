@@ -1,0 +1,45 @@
+.container{
+
+}
+
+.catTitle{
+  color: #53c28b;
+}
+
+.item{
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.item:nth-child(odd){ /* สลับเฉพาะตำแหน่งเลขคี่ */
+  flex-direction: row-reverse;
+}
+
+.img{
+  object-fit: cover;
+}
+
+.imgContainer{
+  flex: 1;
+  height: 500px;
+  position: relative;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title{
+  font-size: 50px;
+}
+
+.desc{
+  font-size: 20px;
+  text-align: justify;
+}
